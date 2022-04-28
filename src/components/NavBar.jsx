@@ -13,7 +13,7 @@ const NavBar = () => {
                             <li><a>Legacy</a></li>
                         </ul>
                     </div>
-                <a class="btn btn-ghost normal-case text-xl">Yatchs.com <img  class= "m-1" src="./img/yatch2.png" alt="" width={"20px"}/> </a>
+                <a href="#" class="btn btn-ghost normal-case text-xl">Yatchs.com <img  class= "m-1" src="./img/yatch2.png" alt="" width={"20px"}/> </a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal p-0">

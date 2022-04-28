@@ -27,8 +27,8 @@ const ItemListContainer = () => {
     return (
         <div className="itemListContainer">
             <div> {yatchs.map ( yatch => 
-                <div class="card w-96 bg-base-100 shadow-xl">
-                    <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
+                <div class="card w-96 bg-base-100 shadow-xl m-5">
+                    <figure><img src="..\..\..\..\img\yatchs\Legacy3.jpg" alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="card-title m-2"> {yatch.name} </h2>
                         <p> {yatch.value} </p>
