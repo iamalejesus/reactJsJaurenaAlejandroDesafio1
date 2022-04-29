@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { yatchsData } from "./data/Data";
+import ItemList from "./ItemList";
 
 const ItemListContainer = () => {
 
@@ -16,9 +17,8 @@ const ItemListContainer = () => {
         getYatchs.then ( (result)=> {
             console.log (result);
             setYatchs (result)
-            .catch ((err) => {
-                console.log ("Error en la promesa", err)
-            })
+        }).catch ((err) => {
+            console.log ("Error en la promesa", err)           
         })
 
     }, [])
@@ -26,18 +26,7 @@ const ItemListContainer = () => {
 
     return (
         <div className="itemListContainer">
-            <div> {yatchs.map ( yatch => 
-                <div class="card w-96 bg-base-100 shadow-xl m-5">
-                    <figure><img src="..\..\..\..\img\yatchs\Legacy3.jpg" alt="Shoes" /></figure>
-                    <div class="card-body">
-                        <h2 class="card-title m-2"> {yatch.name} </h2>
-                        <p> {yatch.value} </p>
-                        <div class="card-actions justify-end">
-                            <button class="btn btn-outline">Comprar</button>
-                        </div>
-                    </div>
-                </div>
-                )}
+            <div className="flex flex-raw m-20 justify-center"> {yatchs.map ( yatch => <ItemList key={yatch.id} yatchData={yatch} /> )}
             </div>
         </div>   
     )
