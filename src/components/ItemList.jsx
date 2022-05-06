@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 
 const ItemList = ( {yatchData} ) => {
+
     return (
         <div>
             <div class="card w-96 bg-base-100 shadow-xl m-5">
@@ -8,7 +9,7 @@ const ItemList = ( {yatchData} ) => {
                     <div class="card-body">
                         <h2 class="card-title"> {yatchData.name} </h2>
                         <div class="card-actions justify-end">
-                            <button class="btn btn-outline"><Link to="/item/:itemId">Ver más</Link></button>
+                            <button class="btn btn-outline"><Link to={`/item/${yatch.id}`}>Ver más</Link></button>
                         </div>
                     </div>
                 </div>

@@ -29,7 +29,7 @@ const ItemDetail = () => {
         <>
             <div className='m-5'>ItemDetail - {itemId}</div>
             <div class="card w-96 glass m-5">
-                <figure><img src="..\..\..\..\img\yatchs\Legacy3.jpg" alt="car!"></img></figure>
+                <figure><img src="..\..\..\..\img\yatchs\Legacy3.jpg" alt="yatch!"></img></figure>
                     <div class="card-body">
                         <h2 class="card-title">{yatch.name}</h2>
                         <p>${yatch.value}</p>
