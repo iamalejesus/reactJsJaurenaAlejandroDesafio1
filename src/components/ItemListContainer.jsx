@@ -26,7 +26,8 @@ const ItemListContainer = () => {
 
     return (
         <div className="itemListContainer">
-            <div className="flex flex-raw m-20 justify-center"> {yatchs.map ( yatch => <ItemList key={yatch.id} yatchData={yatch} /> )}
+            <div className="flex flex-raw m-20 justify-center"> 
+                {yatchs.map ( yatch => <ItemList key={yatch.id} yatchData={yatch} /> )}
             </div>
         </div>   
     )
