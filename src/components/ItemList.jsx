@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const ItemList = ( {yatchData} ) => {
     return (
         <div>
@@ -5,9 +7,8 @@ const ItemList = ( {yatchData} ) => {
                     <figure><img src="..\..\..\..\img\yatchs\Legacy3.jpg" alt="Yatchs" /></figure>
                     <div class="card-body">
                         <h2 class="card-title"> {yatchData.name} </h2>
-                        <p> $ {yatchData.value} </p>
                         <div class="card-actions justify-end">
-                            <button class="btn btn-outline">Comprar</button>
+                            <button class="btn btn-outline"><Link to="/item/:itemId">Ver más</Link></button>
                         </div>
                     </div>
                 </div>

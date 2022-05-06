@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const NavBar = () => {
     return (
         <nav>
@@ -13,14 +15,12 @@ const NavBar = () => {
                             <li><a>Legacy</a></li>
                         </ul>
                     </div>
-                <a href="#" class="btn btn-ghost normal-case text-xl">Yatchs.com <img  class= "m-1" src="./img/yatch2.png" alt="" width={"20px"}/> </a>
+                <Link to="/ItemListContainer" href="#" class="btn btn-ghost normal-case text-xl">Yatchs.com <img  class= "m-1" src="./img/yatch2.png" alt="" width={"20px"}/> </Link>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal p-0">
-                        <li><a>Luxry</a></li>
-                        <li><a>Stylus</a></li>
-                        <li><a>Legacy</a></li>
-                        
+                        <li><Link to="/ItemListContainer">Yatchs</Link></li>
+                        <li><a>Accesorios</a></li>
                     </ul>
                 </div>
                 <div class="navbar-end">
