@@ -9,7 +9,7 @@ const ItemList = ( {yatchData} ) => {
                     <div class="card-body">
                         <h2 class="card-title"> {yatchData.name} </h2>
                         <div class="card-actions justify-end">
-                            <button class="btn btn-outline"><Link to={`/item/${yatch.id}`}>Ver más</Link></button>
+                            <button class="btn btn-outline"><Link to={`/item/${yatchData.id}`}>Ver más</Link></button>
                         </div>
                     </div>
                 </div>

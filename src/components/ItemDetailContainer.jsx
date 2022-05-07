@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+/*import { useEffect, useState } from "react";
 import ItemList from "./ItemDetail";
 
 const ItemDetailContainer = () => {
@@ -10,4 +10,4 @@ const ItemDetailContainer = () => {
     )
 }
 
-export default ItemDetailContainer
+export default ItemDetailContainer*/
