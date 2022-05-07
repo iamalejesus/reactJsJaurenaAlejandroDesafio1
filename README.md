@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+/*Introducción acerca del proyecto e ideas/enfoque*/
+
+Hola Josué! 
+
+Mi proyecto trata sobre un e-commerce basado en la venta y alquiler de yates de lujo o alta gama. 
+
+Estoy utlizando TailWind y daisyUI para darle estilos al código. 
